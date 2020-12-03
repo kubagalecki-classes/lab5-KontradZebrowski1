@@ -12,7 +12,7 @@ public:
 
     const std::string& getName() const { return name; }
     unsigned int       getAge() const { return age; }
-    bool               isMonster() /*const*/ { return !likes_dogs && !likes_cats; }
+    bool               isMonster() const { return !likes_dogs && !likes_cats; }
     void               birthday() { ++age; }
 
 private:
