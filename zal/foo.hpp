@@ -9,7 +9,7 @@ std::vector< char > foo(std::list< Human >& people)
 {
     // Twoja implementacja tutaj
   std::vector<char> kotofil;
-  for(Human e : people)
+  for(Human& e : people)
   {
     e.birthday();
   }
