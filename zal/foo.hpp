@@ -15,14 +15,14 @@ for(Human e : people)
 }
 for(std::list< Human >::reverse_iterator it = people.rbegin(); it!= people.rend(); it++)
 {
-if(*it.isMonster()==1)
-{
-kotofil.emplace_back("n");
-}
+if(it->isMonster() ==1)
+  {
+  kotofil.emplace_back("n");
+  }
 else
-{
-kotofil.emplace_back("y");
-}
+  {
+  kotofil.emplace_back("y");
+  }
 
 }
 
