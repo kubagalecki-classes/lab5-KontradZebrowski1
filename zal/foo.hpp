@@ -17,11 +17,11 @@ std::vector< char > foo(std::list< Human >& people)
   {
     if(it->isMonster() == true)
     {
-    kotofil.emplace_back("n");
+    kotofil.emplace_back('n');
     }
     else
     {
-    kotofil.emplace_back("y");
+    kotofil.emplace_back('y');
     }
 
   }
